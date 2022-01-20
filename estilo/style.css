@@ -16,8 +16,8 @@
     font: bolder 3em serif;
 
     background-color: #000000;
-    border: 10px solid #000000;
-}
+    border: 10px solid #05b6057e
+}  
 h1.title-index{
     display: block;
 
@@ -148,4 +148,15 @@ main{
     margin:   1.5px;
     margin-bottom: 5px;
     padding:  5px;
+}
+footer{
+    color: #ffffff;
+    font: italic 1.2em serif;
+
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+
+    background-color: #000000;
+    border: 5px solid #05b6057e
 }
