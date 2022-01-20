@@ -17,7 +17,8 @@
     padding: 5px;
     margin: 0;
 
-    font: bolder 3em var(--fontMain);
+    font: bold 3em var(--fontMain);
+     
     background-color: #000000;
     border: 10px solid var(--corFont);
 }  
@@ -30,7 +31,7 @@ h1.title-index{
     font: bold 1.5em ;
     text-shadow: 9px 15px 1px #ffffff;
 
-    color: var(--corFont);
+    color: #05b605 ;
 }
 .item{
     display: flex;
