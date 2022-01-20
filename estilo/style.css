@@ -83,7 +83,6 @@ main{
     background-color: #00ffff;
     
     border:5px groove  #000000;
-    border-radius: 5px;
 
     font: italic 1.2rem  serif;
 
@@ -126,7 +125,6 @@ main{
 
     background-color: #00ffff;
     border:5px groove  #000000;
-    border-radius: 10px;
 
     margin:  1.5px;
     padding:  5px;
