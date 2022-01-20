@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 :root{
-    --corFont: #05b6057e;
+    --corFont: #05b605;
     --fontMain: serif,sans-serif;
 }
 
@@ -28,30 +28,29 @@ h1.title-index{
     max-width: 500px;
     min-width: 205px;
 
-    font: bold 1.5em ;
+    font: bold 1.5em var(--fontMain) ;
     text-shadow: 9px 15px 1px #ffffff;
 
-    color: #05b605 ;
+    color: var(--corFont);
 }
 .item{
     display: flex;
 
     font: bold .5em  var(--fontMain);
 
-    border: 2px groove var(--corFont) ;
+    border: 2px groove ;
     border-radius: 15px 1px;
-    box-shadow: 3px 3px 2px #00000062;
 
     margin:  5px;
     padding: 5px;
 
-    text-shadow: 1px 1px #ffffff;
+    text-shadow: 1px 1px #ffffffb0;
 }
 ul{
 
     display: flex;
     flex-wrap:wrap;
-
+    
     margin: auto;
 }
 a{
