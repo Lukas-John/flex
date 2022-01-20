@@ -34,9 +34,9 @@ h1.title-index{
 
     font: bold .5em serif;
 
-    border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 2px 2px 1px #00000049;
+    border: 2px groove  #000000;
+    border-radius: 15px 1px;
+    box-shadow: 3px 3px 2px #00000062;
 
     margin:  5px;
     padding: 5px;
@@ -62,8 +62,8 @@ main{
     background: #000000 url(../bg-img/space-image.jpg) center center no-repeat fixed;
     background-size: cover;
 
-    color: #ffffff;
-    text-shadow: 2px 2px #00ffff8e;
+    color:#ffffff;
+    text-shadow: 2px 1px #00ffff;
     text-transform: uppercase;
 }
 .container{
@@ -82,7 +82,7 @@ main{
 
     background-color: #00ffff;
     
-    border: 1px dashed #000000;
+    border:5px groove  #000000;
     border-radius: 5px;
 
     font: italic 1.2rem  serif;
@@ -104,7 +104,7 @@ main{
     height: 100px;
 
     background-color: #00ffff;
-    border:1px dashed  #000000;
+    border:5px groove  #000000;
 
     margin: 1.5px;
     padding: 5px;
@@ -125,7 +125,7 @@ main{
     height: 100px;
 
     background-color: #00ffff;
-    border:1px dashed #000000;
+    border:5px groove  #000000;
     border-radius: 10px;
 
     margin:  1.5px;
@@ -147,7 +147,7 @@ main{
     height: 100px;
 
     background-color: #00ffff;
-    border: 1px dashed #000000;
+    border:5px groove  #000000;
 
     margin:   1.5px;
     margin-bottom: 5px;
