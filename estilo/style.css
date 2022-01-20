@@ -15,7 +15,7 @@
 
     font: bolder 3em serif;
 
-    background-color: #9400d3;
+    background-color: #000000;
     border: 10px solid #000000;
 }
 h1.title-index{
@@ -25,24 +25,23 @@ h1.title-index{
     min-width: 205px;
 
     font: bold 1.5em serif;
-    text-shadow: 9px 15px 2px #00ffff85;
+    text-shadow: 9px 15px 1px #ffffff;
 
-    color: #000000;
+    color: #05b605;
 }
 .item{
     display: flex;
 
     font: bold .5em serif;
 
-    border: 2px groove  #000000;
+    border: 2px groove #05b605 ;
     border-radius: 15px 1px;
     box-shadow: 3px 3px 2px #00000062;
 
     margin:  5px;
     padding: 5px;
 
-    color: #000000;
-    text-shadow: 1px 1px 1px #00ffff77;
+    text-shadow: 1px 1px #ffffff;
 }
 ul{
 
@@ -53,17 +52,16 @@ ul{
 }
 a{
     text-decoration: none;
-    color: #000000;
+    color: #05b605;
 }
 a:hover{
-    text-decoration:  underline #00ffff;
+    text-decoration:  underline #ffffff;
 }
 main{
-    background: #000000 url(../bg-img/space-image.jpg) center center no-repeat fixed;
+    background: #000000 url(../bg-img/mtx-bg.jpg) center center no-repeat fixed;
     background-size: cover;
 
     color:#ffffff;
-    text-shadow: 2px 1px #00ffff;
     text-transform: uppercase;
 }
 .container{
