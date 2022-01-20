@@ -67,7 +67,7 @@ main{
     color:#ffffff;
     text-transform: uppercase;
 }
-.container{
+header.container{
 
     display: flex;
     flex-wrap: wrap;
