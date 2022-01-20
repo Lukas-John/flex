@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 .container-z-index-flex{
     display: flex;
     flex-wrap: wrap;
@@ -16,7 +15,8 @@
 
     font: bolder 3em serif;
 
-    background-color: darkviolet;
+    background-color: #9400d3;
+    border: 10px solid #000000;
 }
 h1.title-index{
     display: block;
@@ -25,6 +25,9 @@ h1.title-index{
     min-width: 205px;
 
     font: bold 1.5em serif;
+    text-shadow: 9px 15px 2px #00ffff85;
+
+    color: #000000;
 }
 .item{
     display: flex;
@@ -33,11 +36,13 @@ h1.title-index{
 
     border: 1px solid black;
     border-radius: 5px;
+    box-shadow: 2px 2px 1px #00000049;
 
-    margin:  1.5px;
-    padding: 1.5px;
+    margin:  5px;
+    padding: 5px;
 
     color: #000000;
+    text-shadow: 1px 1px 1px #00ffff77;
 }
 ul{
 
@@ -52,7 +57,14 @@ a{
 }
 a:hover{
     text-decoration:  underline #00ffff;
-    background-color: white;
+}
+main{
+    background: #000000 url(../bg-img/space-image.jpg) center center no-repeat fixed;
+    background-size: cover;
+
+    color: #ffffff;
+    text-shadow: 2px 2px #00ffff8e;
+    text-transform: uppercase;
 }
 .container{
 
@@ -66,7 +78,7 @@ a:hover{
 }
 .child{
     max-width: 100vw;
-    height: 75px;
+    height: 125px;
 
     background-color: #00ffff;
     
@@ -89,7 +101,7 @@ a:hover{
 }
 .child-02{
     max-width: 100vw;
-    height: 75px;
+    height: 100px;
 
     background-color: #00ffff;
     border:1px dashed  #000000;
@@ -110,7 +122,7 @@ a:hover{
 }
 .child-03{
     max-width:100vw;
-    height: 75px;
+    height: 100px;
 
     background-color: #00ffff;
     border:1px dashed #000000;
@@ -132,11 +144,12 @@ a:hover{
 }
 .child-04{
     max-width: 100vw;
-    height: 75px;
+    height: 100px;
 
     background-color: #00ffff;
     border: 1px dashed #000000;
 
-    margin:  1.5px;
+    margin:   1.5px;
+    margin-bottom: 5px;
     padding:  5px;
 }
